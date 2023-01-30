@@ -2,7 +2,12 @@
 
 #usage: 
 
+```
+python3 -m venv venv 
+
 source venv/bin/activate 
 
-uvicorn main:app --reload
+pip install -r requirements.txt
 
+uvicorn main:app --reload
+```
